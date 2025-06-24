@@ -1,0 +1,55 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Meera Kulkarni",
+      "specialty": "Dermatology",
+      "rating": 4.8,
+      "availableSlots": ["2025-06-25T10:00", "2025-06-26T16:00"]
+    },
+    {
+      "id": 2,
+      "name": "Dr. Rajeev Menon",
+      "specialty": "Orthopedics",
+      "rating": 4.5,
+      "availableSlots": ["2025-06-25T14:30", "2025-06-27T11:00"]
+    },
+    {
+      "id": 3,
+      "name": "Dr. Anjali Sinha",
+      "specialty": "Cardiologist",
+      "rating": 4.9,
+      "availableSlots": ["2025-06-26T09:00", "2025-06-28T15:00"]
+    }
+  ],
+
+  "appointments": [
+    {
+      "id": 101,
+      "doctorId": 1,
+      "doctorName": "Dr. Meera Kulkarni",
+      "patientName": "Siya Sharma",
+      "date": "2025-06-25",
+      "time": "10:00",
+      "status": "confirmed"
+    },
+    {
+      "id": 102,
+      "doctorId": 2,
+      "doctorName": "Dr. Rajeev Menon",
+      "patientName": "Shreyansh Jain",
+      "date": "2025-06-26",
+      "time": "14:30",
+      "status": "confirmed"
+    },
+    {
+      "id": 103,
+      "doctorId": 3,
+      "doctorName": "Dr. Anjali Sinha",
+      "patientName": "Riya Kapoor",
+      "date": "2025-06-28",
+      "time": "15:00",
+      "status": "pending"
+    }
+  ]
+}
