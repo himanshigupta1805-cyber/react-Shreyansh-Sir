@@ -571,6 +571,7 @@ Any component can call the hook with a currency code and receive the matching cu
 **Project example:** `currencyOptions.map(...)` uses `key={currency}`.
 
 **Interview answer style:** keys prevent unnecessary list reordering and help React update efficiently.
+React requires keys in lists so it can uniquely identify elements during reconciliation and efficiently update only the changed items instead of re-rendering the entire list.
 
 ### Rendering optimization
 
