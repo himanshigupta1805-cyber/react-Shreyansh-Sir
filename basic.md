@@ -66,7 +66,7 @@ It is recursive algorithm which reconsider which one to update.
 The algorithm React uses to diff one tree with another to determine which parts need to be changed.
 2 Trees one from browser (main dom) and other obne using createRoot (virtual dom).
 
-Reconciliation is the algorithm behind what is popularly understood as the "virtual DOM."A high-level description goes something like this: when you render a React application, a tree of nodes that describes the app is generated and saved in memory. This tree is then flushed to the rendering environment — for example, in the case of a browser application, it's translated to a set of DOM operations. When the app is updated (usually via setState), a new tree is generated. The new tree is diffed with the previous tree to compute which operations are needed to update the rendered app.
+Reconciliation is the algorithm behind what is popularly understood as the "virtual DOM."A high-level description goes something like this: when you render a React application, a tree of nodes that describes the app is generated and saved in memory (the tree being talked about here is the object made inside jsx). This tree is then flushed to the rendering environment — for example, in the case of a browser application, it's translated to a set of DOM operations. When the app is updated (usually via setState), a new tree is generated. The new tree is diffed with the previous tree to compute which operations are needed to update the rendered app.
 
 
 
