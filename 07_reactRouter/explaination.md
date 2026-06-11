@@ -8,6 +8,10 @@ This project is a compact React Router DOM revision app built to understand rout
 - Route coverage: static pages, an index route, a dynamic user route, and a loader-backed GitHub route.
 - State model: there is no global Context or Redux store; the route itself is the main state source.
 
+##What actually is react-router-dome??
+<br>
+React Router DOM is a specialized library that enables smooth navigation between different pages (or views) in a React web application without reloading the entire page. It’s built on top of React Router and specifically designed for browser-based apps, making single-page applications (SPAs) feel fast and dynamic.
+
 ## 2. Folder Structure Breakdown
 
 The project does not use separate `pages/` or `layouts/` folders. Instead, the route-level components live under `src/components/`, and the shared layout is kept at `src/Layout.jsx`.
